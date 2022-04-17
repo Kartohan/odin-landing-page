@@ -7,25 +7,65 @@
 header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
     padding: 15px;
-    align-items: center
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .link-left,
 .link-right a {
-    color: White
+    color: #f9faf8;
 }
+
 ul {
     list-style-type: none;
     display: flex;
     gap: 10px;
 }
+
 .link-left {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
 }
+
 ul li a {
     text-decoration: none;
+}
+
+.header-section-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-section {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 0 50px 0;
+    gap: 30px;
+}
+
+.header-section-right img {
+    height: auto;
+    width: 600px;
+}
+
+.header-section-left,
+.header-section-right {
+    flex-basis: 600px;
+}
+.header-section .header-section-left button {
+    padding: 8px 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 7px;
+    margin-top: 5px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
 }
