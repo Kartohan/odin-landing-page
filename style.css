@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto, 'sans-serif';
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center
+}
+
+.link-left,
+.link-right a {
+    color: White
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.link-left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+ul li a {
+    text-decoration: none;
+}
