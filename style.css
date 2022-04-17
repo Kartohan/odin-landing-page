@@ -48,16 +48,17 @@ ul li a {
     align-content: center;
     padding: 50px 0 50px 0;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .header-section-right img {
     height: auto;
-    width: 600px;
+    width: 100%;
 }
 
 .header-section-left,
 .header-section-right {
-    flex-basis: 600px;
+    flex-basis: 550px;
 }
 .header-section .header-section-left button {
     padding: 8px 30px;
