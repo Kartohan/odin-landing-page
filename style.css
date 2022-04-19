@@ -1,8 +1,12 @@
+/* Deleting spaces and add fonts*/
+
 * {
     padding: 0;
     margin: 0;
     font-family: roboto, 'sans-serif';
 }
+
+/* Header Part */
 
 header {
     background-color: #1F2937;
@@ -33,6 +37,8 @@ ul {
 ul li a {
     text-decoration: none;
 }
+
+/* Header section part */
 
 .header-section-left h1 {
     font-size: 48px;
@@ -70,6 +76,12 @@ ul li a {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.header-section .header-section-left p {
+    font-size: 18px;
+}
+
+/* Main Part */
 
 .main-info {
     display: flex;
