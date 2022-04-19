@@ -123,3 +123,26 @@ main h1 {
     text-align: center;
     font-size: 18px;
 }
+
+/* Article Part */
+
+article {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+    background-color: #e5e7eb;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 900px;
+    color: #1F2937;
+    gap: 7px;
+    justify-content: flex-end;
+}
+.article p {
+    font-size: 26px;
+    font-weight: 800;
+}
