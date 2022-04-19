@@ -177,3 +177,14 @@ article {
     font-weight: 800;
     font-size: 19px;
 }
+
+/* Footer Part */
+
+footer {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
