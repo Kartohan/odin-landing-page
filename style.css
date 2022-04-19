@@ -147,3 +147,33 @@ article {
     font-size: 26px;
     font-weight: 800;
 }
+
+/* Section action part */
+
+.section-action {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 0 100px 0;
+}
+
+.action {
+    display: flex;
+    border-radius: 10px;
+    flex-basis: 900px;
+    background-color: #3882f6;
+    padding: 60px 110px;
+    color: #f9faf8;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.action .left button {
+    border: 2px solid #f9faf8;
+    border-radius: 7px;
+    padding: 6px 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 19px;
+}
